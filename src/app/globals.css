@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Tokens de cor ───────────────────────────────────────────────── */
+:root {
+  --cor-fundo: #F2F4FA;
+  --cor-superficie: #FFFFFF;
+  --cor-btn: #E4E8F4;
+  --cor-btn-ci: #DDE1EF;
+  --cor-btn-limpar: #FEF3E2;
+  --cor-btn-limpar-texto: #D97706;
+  --cor-visor: #E4E8F4;
+  --cor-texto: #0F1117;
+  --cor-mudo: #8B90A7;
+  --cor-mudo-forte: #555E7A;
+  --cor-borda: rgba(0, 0, 0, 0.08);
+  --sombra-visor: rgba(0, 0, 0, 0.12);
+}
+
+.dark {
+  --cor-fundo: #0F1117;
+  --cor-superficie: #1C1F2A;
+  --cor-btn: #252836;
+  --cor-btn-ci: #13151E;
+  --cor-btn-limpar: #2A1F1A;
+  --cor-btn-limpar-texto: #F5A623;
+  --cor-visor: #080A0F;
+  --cor-texto: #F0F2F8;
+  --cor-mudo: #8B90A7;
+  --cor-mudo-forte: #555E7A;
+  --cor-borda: rgba(255, 255, 255, 0.07);
+  --sombra-visor: rgba(0, 0, 0, 0.55);
+}
+
+/* ── Base ────────────────────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Suaviza transição de tema na calculadora */
+.calc-card * {
+  transition-property: background-color, color, border-color, box-shadow;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
