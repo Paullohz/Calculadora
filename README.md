@@ -37,14 +37,13 @@ Uma aplicação web desenvolvida para reunir diferentes tipos de cálculos em um
 - Next.js
 - React
 - TypeScript
-- HTML5
-- CSS3
+- Tailwind CSS
 
 ---
 
 ## 🎯 Objetivo
 
-Este projeto foi desenvolvido com o objetivo de praticar o desenvolvimento de aplicações modernas utilizando **React**, **Next.js** e **TypeScript**, aplicando conceitos de componentização, gerenciamento de estado, tipagem estática e construção de interfaces responsivas.
+Este projeto foi desenvolvido com o objetivo de praticar o desenvolvimento de aplicações modernas utilizando **React**, **Next.js**, **TypeScript** e **Tailwind CSS**, aplicando conceitos de componentização, gerenciamento de estado, tipagem estática e construção de interfaces responsivas.
 
 ---
 
@@ -56,6 +55,7 @@ Durante o desenvolvimento deste projeto foram praticados conceitos como:
 - Gerenciamento de estado
 - Tipagem com TypeScript
 - Estruturação de projetos com Next.js
+- Estilização com Tailwind CSS
 - Desenvolvimento de interfaces responsivas
 - Manipulação de eventos
 - Implementação de cálculos matemáticos e financeiros
